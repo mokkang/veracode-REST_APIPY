@@ -19,6 +19,6 @@ for j in y['_embedded']['users']:
 	print(j['user_name'])
 	username.append(j['user_name'])
 #	username.append(j['user_name'])
-#i =+ i  
+i = i + 1 
 m = [i,j]
 s.close()
